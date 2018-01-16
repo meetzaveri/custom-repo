@@ -1,0 +1,2745 @@
+body {
+    color: #58666e;
+    font-size: 12px;
+    background: #f0f3f4
+}
+
+.collapse_panel_bg {
+    background: #f6f8f8
+}
+
+.opened_panel_bg {
+    background: #edf1f2
+}
+
+.custom_section .custom_aside {
+    float: left !important;
+    min-height: 100% !important;
+    width: 298px;
+    min-height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 15px -4px #888;
+    box-shadow: 0 0 15px -4px #888
+}
+
+.custom_section .custom_aside .common_add_btn_div .btn-addon.btn-sm {
+    width: 125px;
+    height: 30px;
+    border-radius: 0;
+    background: white;
+    border: thin #dee5e7 solid;
+    background: #edf1f2
+}
+
+.custom_section .custom_aside .common_add_btn_div .btn-addon.btn-sm i {
+    background: #edf1f2;
+    height: 28px !important;
+    width: 28px !important;
+    margin-top: -5px;
+    margin-left: -10px;
+    border-radius: 0px;
+    font-weight: 600
+}
+
+.custom_section .custom_aside .common_add_btn_div .btn-addon.btn-sm i svg {
+    margin-top: 9px
+}
+
+.custom_section .custom_aside .common_add_btn_div .btn-addon:hover {
+    border: thin #dee5e7 solid;
+    color: #58666e;
+    background: #edf1f2
+}
+
+.custom_section .custom_aside .common_add_btn_div .btn-addon:hover i {
+    background: #edf1f2
+}
+
+.custom_section .custom_aside .custom_heading_div {
+    height: 52px;
+    width: 100%
+}
+
+.custom_section .custom_aside .custom_heading_div .custom_name_div {
+    display: inline-block;
+    width: 35%
+}
+
+.custom_section .custom_aside .custom_heading_div .custom_name_div span {
+    position: relative;
+    top: 14px;
+    left: 20px;
+    font-size: 18.66px;
+    font-weight: lighter;
+    font-family: "Roboto", Helvetica, Arial, sans-serif
+}
+
+.custom_section .custom_aside .custom_heading_div .icon_div {
+    display: inline-block;
+    margin-left: 5px
+}
+
+.custom_section .custom_aside .custom_heading_div .icon_div span {
+    font-size: 22px;
+    position: relative;
+    top: 14px;
+    left: 20px;
+    margin: 0 10px
+}
+
+.custom_section .custom_aside .custom_heading_div .view_selected_color {
+    color: #58666e
+}
+
+.custom_section .custom_aside .custom_heading_div .view_default_color {
+    color: #cfe1ed
+}
+
+.custom_section .custom_aside .single_multipage_div {
+    font-size: 14px;
+    text-align: center;
+    line-height: 2.4
+}
+
+.custom_section .custom_aside .single_multipage_div .selected_page_div {
+    background: #22b4e1;
+    color: white;
+    height: 34px
+}
+
+.custom_section .custom_aside .single_multipage_div .unselected_page_div {
+    background: #FFFFFF;
+    color: #58666e;
+    height: 34px
+}
+
+.custom_section .custom_aside .website_section .navigation_menu {
+    border-top: thin #e0e6e8 solid
+}
+
+.custom_section .custom_aside .website_section .navigation_menu .nav_menu {
+    padding: 13.5px 15px;
+    background: #f6f8f8;
+    border-bottom: thin #e0e6e8 solid
+}
+
+.custom_section .custom_aside .website_section .navigation_menu .nav_menu span {
+    font-size: 14px
+}
+
+.custom_section .custom_aside .website_section .navigation_menu .nav_menu span + span {
+    margin-right: -3px
+}
+
+.custom_section .custom_aside .website_section .navigation_menu .nav_menu span + span svg {
+    fill: #58666e
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div {
+    height: 100%;
+    position: fixed;
+    width: 297px;
+    overflow: hidden
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .expanded_menu_div {
+    height: 48px;
+    background: #edf1f2;
+    border-top: none;
+    border-bottom: thin #e0e6e8 solid;
+    z-index: 1001;
+    position: relative
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .expanded_menu_div .left_chevron_div {
+    width: 48px;
+    height: 47px;
+    border-right: thin #e1e7e9 solid
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .expanded_menu_div .left_chevron_div span {
+    line-height: 5.5
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .expanded_menu_div .menu_name_div span {
+    line-height: 3.65;
+    font-size: 14px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    height: calc(100% - 150px);
+    width: 315px;
+    top: -5px;
+    z-index: 999;
+    padding-right: 15px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div {
+    padding: 15px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .common_panel_heading_div {
+    height: 42px;
+    border: thin #e0e6e8 solid
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .common_panel_heading_div span {
+    font-size: 13px;
+    line-height: 1.6
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .common_panel_heading_div span + span {
+    font-size: 22px;
+    position: relative;
+    top: -8px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .show_hide_checkbox .i-switch {
+    display: inline-block;
+    width: 32px;
+    height: 17px;
+    margin: 0;
+    border-radius: 30px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .show_hide_checkbox .i-switch input:checked + i::after {
+    margin-left: 13px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .show_hide_checkbox span {
+    margin-left: 40px;
+    position: relative;
+    top: 0px;
+    color: #999999
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .save_cancel_text {
+    color: #23b7e5
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .load_more_up_down_div .up_arrow {
+    position: relative;
+    top: -30px;
+    z-index: 10;
+    width: 15px;
+    padding: 0;
+    right: 0;
+    float: right;
+    height: 15px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .load_more_up_down_div .up_arrow i {
+    position: relative;
+    top: -5px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .load_more_up_down_div .down_arrow {
+    position: relative;
+    top: -16px;
+    z-index: 10;
+    width: 15px;
+    padding: 0;
+    right: -15px;
+    height: 15px;
+    float: right
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .load_more_up_down_div .down_arrow i {
+    position: relative;
+    top: -4px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .checkbox label {
+    color: #999999
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .checkbox .load_more_text {
+    color: #58666e
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .radio label {
+    color: #999999
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .banner_section .banner_panel_body label, .custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .banner_section .home_page_panel_body label, .custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .homepage_section .banner_panel_body label, .custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .homepage_section .home_page_panel_body label {
+    color: #58666e;
+    font-size: 11.5px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .banner_section .banner_panel_body input[type="text"], .custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .banner_section .home_page_panel_body input[type="text"], .custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .homepage_section .banner_panel_body input[type="text"], .custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .homepage_section .home_page_panel_body input[type="text"] {
+    height: 30px;
+    font-size: 11.5px;
+    border-radius: 0
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .banner_section .banner_panel_body .speaker_panel_header_div .speaker_panel_header, .custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .banner_section .home_page_panel_body .speaker_panel_header_div .speaker_panel_header, .custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .homepage_section .banner_panel_body .speaker_panel_header_div .speaker_panel_header, .custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .homepage_section .home_page_panel_body .speaker_panel_header_div .speaker_panel_header {
+    height: 32px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .banner_section .banner_panel_body .speaker_panel_header_div .speaker_panel_header span, .custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .banner_section .home_page_panel_body .speaker_panel_header_div .speaker_panel_header span, .custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .homepage_section .banner_panel_body .speaker_panel_header_div .speaker_panel_header span, .custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .homepage_section .home_page_panel_body .speaker_panel_header_div .speaker_panel_header span {
+    font-size: 12px;
+    color: #999999;
+    position: relative;
+    top: 7px;
+    left: 10px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .footer_section .footer_panel_body label {
+    color: #58666e;
+    font-size: 11.5px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .common_panel_div .footer_section .footer_panel_body input[type="text"] {
+    height: 30px;
+    font-size: 11.5px;
+    border-radius: 0
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .more_plus_div {
+    background: #f6f8f8;
+    height: 32px;
+    color: #99b0c0;
+    width: 299px
+}
+
+.custom_section .custom_aside .website_section .single_page_expanded_menu_main_div .scrolling_div .more_plus_div span {
+    margin-left: 18px;
+    font-size: 13px;
+    line-height: 2.3
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div {
+    height: 100%;
+    position: fixed;
+    width: 297px;
+    overflow: hidden
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .expanded_menu_div {
+    height: 48px;
+    background: #edf1f2;
+    border-top: none;
+    border-bottom: thin #e0e6e8 solid;
+    z-index: 1001;
+    position: relative
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .expanded_menu_div .left_chevron_div {
+    width: 48px;
+    height: 47px;
+    border-right: thin #e1e7e9 solid
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .expanded_menu_div .left_chevron_div span {
+    line-height: 5.5
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .expanded_menu_div .menu_name_div span {
+    line-height: 3.65;
+    font-size: 14px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    height: calc(100% - 150px);
+    width: 314px;
+    top: -5px;
+    z-index: 999;
+    padding-right: 15px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div {
+    padding: 15px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .common_panel_heading_div {
+    height: 42px;
+    border: thin #e0e6e8 solid
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .common_panel_heading_div span {
+    font-size: 13px;
+    line-height: 1.6
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .common_panel_heading_div span + span {
+    font-size: 22px;
+    position: relative;
+    top: -8px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .common_panel_heading_div .right_down_arrow_text {
+    font-size: 17px !important;
+    position: relative !important;
+    top: -4px !important
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .common_panel_heading_div .sub_panel_collapse_expand_text {
+    top: -8px !important;
+    right: -3px !important;
+    font-size: 21px !important
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .speaker_panel_header_div .speaker_panel_header {
+    height: 32px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .speaker_panel_header_div .speaker_panel_header span {
+    font-size: 12px;
+    color: #999999;
+    position: relative;
+    top: 7px;
+    left: 10px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .show_hide_checkbox .i-switch {
+    display: inline-block;
+    width: 32px;
+    height: 17px;
+    margin: 0;
+    border-radius: 30px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .show_hide_checkbox .i-switch input:checked + i::after {
+    margin-left: 13px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .show_hide_checkbox span {
+    margin-left: 40px;
+    position: relative;
+    top: 0px;
+    color: #999999
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .banner_section .banner_edit_panel_body label {
+    color: #999999;
+    font-size: 11.5px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .banner_section .banner_edit_panel_body .image_opacity_div span {
+    font-size: 11.5px;
+    color: #999999
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .pages_section .pages_panel_body label {
+    color: #58666e;
+    font-size: 11.5px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .pages_section .pages_panel_body input[type="text"] {
+    height: 28px;
+    font-size: 11px;
+    border-radius: 2px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .pages_section .pages_panel_body .banner_image_outer_div {
+    height: 110px;
+    padding: 5px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .pages_section .pages_panel_body .banner_image_outer_div .banner_image_inner_div {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .pages_section .pages_panel_body .banner_image_outer_div .banner_image_inner_div .banner_image_overlay_div {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .pages_section .pages_panel_body .banner_image_outer_div .banner_image_inner_div:hover .banner_image_overlay_div {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .pages_section .pages_panel_body .speaker_panel_header_div .speaker_panel_header {
+    height: 32px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .pages_section .pages_panel_body .speaker_panel_header_div .speaker_panel_header span {
+    font-size: 12px;
+    color: #999999;
+    position: relative;
+    top: 9px;
+    left: 10px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .schedule_section .schedule_panel_body .image_upload_main_div {
+    height: 120px;
+    padding: 5px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .schedule_section .schedule_panel_body .image_upload_main_div .image_upload_div {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .schedule_section .schedule_panel_body .image_upload_main_div .image_upload_overlay_div {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .schedule_section .schedule_panel_body .image_upload_main_div .image_upload_div:hover .image_upload_overlay_div {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .footer_section .footer_panel_body label {
+    color: #58666e;
+    font-size: 11.5px
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .common_panel_div .footer_section .footer_panel_body input[type="text"] {
+    height: 30px;
+    font-size: 11.5px;
+    border-radius: 0
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .more_plus_div {
+    background: #f6f8f8;
+    height: 30px;
+    color: #99b0c0
+}
+
+.custom_section .custom_aside .website_section .multi_page_expanded_menu_main_div .scrolling_div .more_plus_div span {
+    margin-left: 18px;
+    font-size: 13px;
+    line-height: 2.3
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div {
+    height: 100%;
+    position: fixed;
+    width: 298px;
+    overflow: hidden
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    height: calc(100% - 100px);
+    width: 314px;
+    top: -5px;
+    z-index: 999;
+    padding-right: 15px
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div {
+    padding: 15px
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .common_panel_heading_div {
+    height: 42px;
+    border: thin #e0e6e8 solid
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .common_panel_heading_div span {
+    font-size: 13px;
+    line-height: 1.6
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .common_panel_heading_div span + span {
+    font-size: 22px;
+    position: relative;
+    top: -8px
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .event_info_section .event_info_panel_body label {
+    color: #58666e;
+    font-size: 11.5px
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .event_info_section .event_info_panel_body input[type="text"] {
+    height: 30px;
+    font-size: 11.5px;
+    border-radius: 0
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .event_info_section .event_info_panel_body .event_info_icon_div {
+    height: 50px;
+    width: 50px;
+    display: table;
+    text-align: center;
+    margin: 0 auto
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .event_info_section .event_info_panel_body .event_info_icon_div span {
+    font-size: 30px;
+    display: table-cell
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .event_info_section .event_info_panel_body .event_info_icon_div span i {
+    vertical-align: middle
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .event_info_section .event_info_panel_body .event_info_icon_div .default_icon_color {
+    color: #b3b3b3
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .event_info_section .event_info_panel_body .event_info_icon_div .selected_icon_color {
+    color: #2e99e6
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .event_info_section .event_info_panel_body .default_div {
+    border: thin #cccccc solid;
+    background: #f5f5f5
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .event_info_section .event_info_panel_body .selected_div {
+    border: thin #2e99e6 solid;
+    background: #eef7fd
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .app_banner_section .app_banner_panel_body label {
+    color: #929292;
+    font-size: 11.5px
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .app_banner_section .app_banner_panel_body .banner_image_div {
+    width: 190px;
+    height: 110px;
+    padding: 5px;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .app_banner_section .app_banner_panel_body .banner_image_div .image_div {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .app_banner_section .app_banner_panel_body .banner_image_div .image_div img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .app_banner_section .app_banner_panel_body .banner_image_div .image_div .img_overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .app_banner_section .app_banner_panel_body .banner_image_div .image_div .img_overlay .change_div {
+    background: white;
+    padding: 0px 20px;
+    line-height: 2
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .app_banner_section .app_banner_panel_body .banner_image_div .image_div:hover .img_overlay {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .show_hide_checkbox .i-switch {
+    display: inline-block;
+    width: 32px;
+    height: 17px;
+    margin: 0;
+    border-radius: 30px
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .show_hide_checkbox .i-switch input:checked + i::after {
+    margin-left: 13px
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .show_hide_checkbox span {
+    margin-left: 40px;
+    position: relative;
+    top: 0px;
+    color: #999999
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .save_cancel_delete_text {
+    color: #23b7e5
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .checkbox label {
+    color: #999999
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .checkbox .load_more_text {
+    color: #58666e
+}
+
+.custom_section .custom_aside .mobile_section .sidebar_div .scrolling_div .common_panel_div .radio label {
+    color: #999999
+}
+
+.custom_section .section_edit_main_div {
+    float: left !important;
+    min-height: 100% !important;
+    width: 298px;
+    min-height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 298px;
+    z-index: 1000;
+    overflow: hidden
+}
+
+.custom_section .section_edit_main_div .font_change_div, .custom_section .section_edit_main_div .layout_change_div, .custom_section .section_edit_main_div .header_change_div, .custom_section .section_edit_main_div .load_more_change_div, .custom_section .section_edit_main_div .add_element_change_div, .custom_section .section_edit_main_div .event_contents_change_div, .custom_section .section_edit_main_div .add_widget_div, .custom_section .section_edit_main_div .add_new_page_div {
+    float: left !important;
+    min-height: 100% !important;
+    width: 298px;
+    min-height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 298px;
+    z-index: 1000;
+    overflow: hidden
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_header_div, .custom_section .section_edit_main_div .layout_change_div .section_header_div, .custom_section .section_edit_main_div .header_change_div .section_header_div, .custom_section .section_edit_main_div .load_more_change_div .section_header_div, .custom_section .section_edit_main_div .add_element_change_div .section_header_div, .custom_section .section_edit_main_div .event_contents_change_div .section_header_div, .custom_section .section_edit_main_div .add_widget_div .section_header_div, .custom_section .section_edit_main_div .add_new_page_div .section_header_div {
+    height: 53px;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    width: 298px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_header_div .header_title_text, .custom_section .section_edit_main_div .layout_change_div .section_header_div .header_title_text, .custom_section .section_edit_main_div .header_change_div .section_header_div .header_title_text, .custom_section .section_edit_main_div .load_more_change_div .section_header_div .header_title_text, .custom_section .section_edit_main_div .add_element_change_div .section_header_div .header_title_text, .custom_section .section_edit_main_div .event_contents_change_div .section_header_div .header_title_text, .custom_section .section_edit_main_div .add_widget_div .section_header_div .header_title_text, .custom_section .section_edit_main_div .add_new_page_div .section_header_div .header_title_text {
+    position: relative;
+    top: 20px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_header_div .header_save_cancel_text_div, .custom_section .section_edit_main_div .layout_change_div .section_header_div .header_save_cancel_text_div, .custom_section .section_edit_main_div .header_change_div .section_header_div .header_save_cancel_text_div, .custom_section .section_edit_main_div .load_more_change_div .section_header_div .header_save_cancel_text_div, .custom_section .section_edit_main_div .add_element_change_div .section_header_div .header_save_cancel_text_div, .custom_section .section_edit_main_div .event_contents_change_div .section_header_div .header_save_cancel_text_div, .custom_section .section_edit_main_div .add_widget_div .section_header_div .header_save_cancel_text_div, .custom_section .section_edit_main_div .add_new_page_div .section_header_div .header_save_cancel_text_div {
+    position: relative;
+    top: 0px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div {
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    height: calc(100% - 70px);
+    width: 305px;
+    z-index: 999;
+    top: 53px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div {
+    padding: 20.5px 0
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div .inner_header_sub_text_color, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div .inner_header_sub_text_color, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div .inner_header_sub_text_color, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div .inner_header_sub_text_color, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div .inner_header_sub_text_color, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div .inner_header_sub_text_color, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div .inner_header_sub_text_color, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_inner_header_div .inner_header_sub_text_color {
+    color: #929292
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .dark_text, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .dark_text, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .dark_text, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .dark_text, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .dark_text, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .dark_text, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .dark_text, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .dark_text {
+    color: #58666e
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div input[type="text"], .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div input[type="text"], .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div input[type="text"], .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div input[type="text"], .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div input[type="text"], .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div input[type="text"], .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div input[type="text"], .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div input[type="text"] {
+    height: 30px;
+    border-radius: 2px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .light_text_color, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .light_text_color, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .light_text_color, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .light_text_color, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .light_text_color, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .light_text_color, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .light_text_color, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .light_text_color {
+    color: #929292
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div img, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div img, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div img, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div img, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div img, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div img, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div img, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #27c24c;
+    border-radius: 50%;
+    right: 15px;
+    top: -8px;
+    padding-left: 1px;
+    padding-top: 1px;
+    border: 2px solid #ffffff
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div svg, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div svg, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div svg, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div svg, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div svg, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div svg, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div svg, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .speaker_layout_div .speaker_style_option_selected_div svg {
+    width: 11px;
+    height: 11px;
+    margin-left: -1px;
+    margin-top: 4px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div {
+    height: 130px;
+    padding: 5px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div .upload_background_image_overlay_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div .upload_background_image_overlay_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div .upload_background_image_overlay_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div .upload_background_image_overlay_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div .upload_background_image_overlay_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div .upload_background_image_overlay_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div .upload_background_image_overlay_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div .upload_background_image_overlay_div {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div:hover .upload_background_image_overlay_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div:hover .upload_background_image_overlay_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div:hover .upload_background_image_overlay_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div:hover .upload_background_image_overlay_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div:hover .upload_background_image_overlay_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div:hover .upload_background_image_overlay_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div:hover .upload_background_image_overlay_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .speaker_style_option_div .upload_background_image_main_div .upload_background_image_div:hover .upload_background_image_overlay_div {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow {
+    position: relative;
+    top: -30px;
+    z-index: 10;
+    width: 15px;
+    padding: 0;
+    right: 0;
+    float: right;
+    height: 15px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow i, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow i, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow i, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow i, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow i, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow i, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow i, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .up_arrow i {
+    position: relative;
+    top: -2px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow {
+    position: relative;
+    top: -16px;
+    z-index: 10;
+    width: 15px;
+    padding: 0;
+    right: -15px;
+    height: 15px;
+    float: right
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow i, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow i, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow i, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow i, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow i, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow i, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow i, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .custom_section_edit_inner_div .custom_section_edit_body_div .load_more_div .down_arrow i {
+    position: relative;
+    top: 0px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div {
+    height: 45px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span {
+    font-size: 14px;
+    line-height: 1.8
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span + span, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span + span, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span + span, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span + span, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span + span, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span + span, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span + span, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .add_element_main_panel_div .common_panel_heading_div span + span {
+    font-size: 22px;
+    position: relative;
+    top: -8px;
+    right: 5px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body {
+    border: none;
+    border-bottom: thin #e0e6e8 solid;
+    padding: 0;
+    margin-left: -1px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body textarea, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body textarea, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body textarea, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body textarea, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body textarea, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body textarea, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body textarea, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .add_element_main_panel_div .custom_section_add_element_panel_body textarea {
+    height: 90px;
+    resize: none;
+    font-size: 11.5px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .widget_search_box_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .widget_search_box_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .widget_search_box_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .widget_search_box_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .widget_search_box_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .widget_search_box_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .widget_search_box_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .widget_search_box_div {
+    border-bottom: thin #e0e6e8 solid;
+    padding: 15px 23px 15px 15px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .widget_search_box_div input[type="text"], .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .widget_search_box_div input[type="text"], .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .widget_search_box_div input[type="text"], .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .widget_search_box_div input[type="text"], .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .widget_search_box_div input[type="text"], .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .widget_search_box_div input[type="text"], .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .widget_search_box_div input[type="text"], .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .widget_search_box_div input[type="text"] {
+    height: 30px;
+    border-radius: 2px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .widget_search_box_div ::-webkit-input-placeholder, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .widget_search_box_div ::-webkit-input-placeholder, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .widget_search_box_div ::-webkit-input-placeholder, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .widget_search_box_div ::-webkit-input-placeholder, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .widget_search_box_div ::-webkit-input-placeholder, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .widget_search_box_div ::-webkit-input-placeholder, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .widget_search_box_div ::-webkit-input-placeholder, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .widget_search_box_div ::-webkit-input-placeholder {
+    color: #999999
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .widget_search_box_div ::-moz-placeholder, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .widget_search_box_div ::-moz-placeholder, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .widget_search_box_div ::-moz-placeholder, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .widget_search_box_div ::-moz-placeholder, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .widget_search_box_div ::-moz-placeholder, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .widget_search_box_div ::-moz-placeholder, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .widget_search_box_div ::-moz-placeholder, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .widget_search_box_div ::-moz-placeholder {
+    color: #999999
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .widget_search_box_div :-ms-input-placeholder, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .widget_search_box_div :-ms-input-placeholder, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .widget_search_box_div :-ms-input-placeholder, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .widget_search_box_div :-ms-input-placeholder, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .widget_search_box_div :-ms-input-placeholder, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .widget_search_box_div :-ms-input-placeholder, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .widget_search_box_div :-ms-input-placeholder, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .widget_search_box_div :-ms-input-placeholder {
+    color: #999999
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .widget_search_box_div :-moz-placeholder, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .widget_search_box_div :-moz-placeholder, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .widget_search_box_div :-moz-placeholder, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .widget_search_box_div :-moz-placeholder, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .widget_search_box_div :-moz-placeholder, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .widget_search_box_div :-moz-placeholder, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .widget_search_box_div :-moz-placeholder, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .widget_search_box_div :-moz-placeholder {
+    color: #999999
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .widgets_option_main_div .widgets_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .widgets_option_main_div .widgets_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .widgets_option_main_div .widgets_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .widgets_option_main_div .widgets_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .widgets_option_main_div .widgets_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .widgets_option_main_div .widgets_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .widgets_option_main_div .widgets_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .widgets_option_main_div .widgets_div {
+    border-bottom: thin #edf1f2 solid;
+    padding: 22.85px 0
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div {
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: middle
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div span i, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div span i, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div span i, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div span i, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div span i, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div span i, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div span i, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .widgets_option_main_div .widgets_div .icon_div span i {
+    font-size: 20px;
+    width: 20px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div span, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div span, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div span, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div span, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div span, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div span, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div span, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div span {
+    color: #58666e;
+    font-size: 12px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div .widget_subline_text, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div .widget_subline_text, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div .widget_subline_text, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div .widget_subline_text, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div .widget_subline_text, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div .widget_subline_text, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div .widget_subline_text, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .widgets_option_main_div .widgets_div .text_div .widget_subline_text {
+    color: #747F85;
+    font-size: 11px;
+    position: relative;
+    top: 3px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .new_page_main_div .new_page_section, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .new_page_main_div .new_page_section, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .new_page_main_div .new_page_section, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .new_page_main_div .new_page_section, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .new_page_main_div .new_page_section, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .new_page_main_div .new_page_section, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .new_page_main_div .new_page_section, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .new_page_main_div .new_page_section {
+    padding: 15px 20px 15px 15px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div {
+    height: 43px;
+    border: thin #e0e6e8 solid;
+    font-size: 13px
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div {
+    display: inline-block;
+    height: 43px;
+    float: left
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div span, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div span, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div span, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div span, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div span, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div span, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div span, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .new_page_text_div span {
+    line-height: 3.2
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div {
+    display: inline-block;
+    background: #f6f8f8;
+    width: 55px;
+    height: 41px;
+    float: right;
+    border-left: thin #e0e6e8 solid;
+    text-align: center;
+    cursor: pointer
+}
+
+.custom_section .section_edit_main_div .font_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div span, .custom_section .section_edit_main_div .layout_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div span, .custom_section .section_edit_main_div .header_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div span, .custom_section .section_edit_main_div .load_more_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div span, .custom_section .section_edit_main_div .add_element_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div span, .custom_section .section_edit_main_div .event_contents_change_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div span, .custom_section .section_edit_main_div .add_widget_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div span, .custom_section .section_edit_main_div .add_new_page_div .section_scrolling_div .new_page_main_div .new_page_section .new_page_div .add_btn_div span {
+    line-height: 3.2
+}
+
+/*.modal .modal-dialog {*/
+    /*width: 671px;*/
+    /*margin: 100px auto 0 auto*/
+/*}*/
+
+.modal-header {
+    background: #edf1f2;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    height: 67px;
+    border-bottom: none;
+    color: #7c7c7c !important
+}
+
+ .modal-header .sub_text_color {
+    color: #999999
+}
+
+.modal-header .close_icon_div {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #dee5e7;
+    position: relative;
+    text-align: center;
+    top: 3px
+}
+
+.modal-header .close_icon_div span {
+    position: relative;
+    color: #3a3f51;
+    font-size: 17px;
+    top: 5px
+}
+
+.modal-body .selection_of_new_element_div {
+    height: 230px;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+.modal-body .selection_of_new_element_div .row .selection_element_div {
+    height: 79px;
+    width: 79px;
+    border-radius: 50%;
+    border: 2px #dee5e7 solid;
+    display: flex;
+    display: -webkit-flex;
+    margin: 0px;
+    cursor: pointer
+}
+
+.modal-body .selection_of_new_element_div .row .selection_element_div .image_div {
+    width: 24px;
+    height: 24px;
+    margin: auto
+}
+
+.modal-body .selection_of_new_element_div .row .selection_element_div .image_div img {
+    width: 100%;
+    height: 100%
+}
+
+.modal-body .selection_of_new_element_div .row .selection_element_div .element_selected_div {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #27c24c;
+    border-radius: 50%;
+    right: 23px;
+    top: 3px;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+.modal-body .selection_of_new_element_div .row .selection_element_div:hover {
+    background: #f6f8f8
+}
+
+.modal-body .selection_of_new_element_div .row .element_name {
+    margin-top: 15px
+}
+
+.display_none {
+    display: none
+}
+
+.bg-light {
+    color: #58666e;
+    background-color: #edf1f2
+}
+
+.bg-light.lt, .bg-light .lt {
+    background-color: #f3f5f6
+}
+
+.bg-light.lter, .bg-light .lter {
+    background-color: #f6f8f8
+}
+
+.cursor_pointer {
+    cursor: pointer
+}
+
+.set_padding_0 {
+    padding: 0
+}
+
+.padding_top_2 {
+    padding-top: 2px
+}
+
+.padding_top_4 {
+    padding-top: 4px !important
+}
+
+.padding_top_5 {
+    padding-top: 5px !important
+}
+
+.padding_top_8 {
+    padding-top: 8px
+}
+
+.padding_top_10 {
+    padding-top: 10px
+}
+
+.padding_top_12 {
+    padding-top: 12px
+}
+
+.padding_top_15 {
+    padding-top: 15px
+}
+
+.padding_top_20 {
+    padding-top: 20px !important
+}
+
+.padding_top_25 {
+    padding-top: 25px
+}
+
+.padding_top_30 {
+    padding-top: 30px
+}
+
+.padding_bottom_0 {
+    padding-bottom: 0 !important
+}
+
+.padding_bottom_4 {
+    padding-bottom: 4px
+}
+
+.padding_bottom_5 {
+    padding-bottom: 5px !important
+}
+
+.padding_left_right_0 {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.padding_0_10px {
+    padding: 0 10px
+}
+
+.padding_6 {
+    padding: 6px
+}
+
+.padding_8 {
+    padding: 8px
+}
+
+.padding_5 {
+    padding: 5px
+}
+
+.padding_10 {
+    padding: 10px
+}
+
+.padding_15 {
+    padding: 15px
+}
+
+.padding_0_5px {
+    padding: 0 5px
+}
+
+.padding_0_3px {
+    padding: 0 3px
+}
+
+.padding_15 {
+    padding: 15px !important
+}
+
+.padding_bottom_8 {
+    padding-bottom: 8px
+}
+
+.padding_bottom_10 {
+    padding-bottom: 10px
+}
+
+.padding_bottom_15 {
+    padding-bottom: 15px
+}
+
+.padding_bottom_20 {
+    padding-bottom: 20px
+}
+
+.padding_bottom_30 {
+    padding-bottom: 30px
+}
+
+.padding_bottom_40 {
+    padding-bottom: 40px !important
+}
+
+.padding_bottom_70 {
+    padding-bottom: 70px
+}
+
+.padding_bottom_100 {
+    padding-bottom: 100px !important
+}
+
+.padding_bottom_150px {
+    padding-bottom: 150px
+}
+
+.padding_left_0 {
+    padding-left: 0px
+}
+
+.padding_top_0 {
+    padding-top: 0
+}
+
+.padding_left_10 {
+    padding-left: 10px
+}
+
+.padding_left_13 {
+    padding-left: 13px
+}
+
+.padding_left_20 {
+    padding-left: 20px
+}
+
+.padding_left_25 {
+    padding-left: 25px
+}
+
+.padding_left_45 {
+    padding-left: 45px
+}
+
+.padding_right_0 {
+    padding-right: 0px !important
+}
+
+.padding_left_right_6 {
+    padding-left: 6px;
+    padding-right: 6px
+}
+
+.padding_top_bottom_5 {
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.padding_top_bottom_8 {
+    padding-top: 8px;
+    padding-bottom: 8px
+}
+
+.padding_top_bottom_10 {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.padding_top_bottom_15 {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.padding_top_bottom_20 {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.padding_top_bottom_25 {
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+
+.padding_top_bottom_29 {
+    padding-top: 29px;
+    padding-bottom: 29px
+}
+
+.padding_top_bottom_35 {
+    padding-top: 35px;
+    padding-bottom: 35px
+}
+
+.padding_6_10 {
+    padding: 6px 10px !important
+}
+
+.padding_6_11 {
+    padding: 6px 11px !important
+}
+
+.padding_left_6 {
+    padding-left: 6px
+}
+
+.padding_right_6 {
+    padding-right: 6px
+}
+
+.no_border_radius {
+    border-radius: 0 !important
+}
+
+.no_box_shadow {
+    box-shadow: none !important
+}
+
+.b {
+    border: 1px solid #dee5e7
+}
+
+.b-a {
+    border: 1px solid #dee5e7
+}
+
+.b-t {
+    border-top: 1px solid #dee5e7
+}
+
+.b-r {
+    border-right: 1px solid #dee5e7
+}
+
+.b-b {
+    border-bottom: 1px solid #dee5e7
+}
+
+.b-l {
+    border-left: 1px solid #dee5e7
+}
+
+.b-light {
+    border-color: #edf1f2
+}
+
+.b-b-none {
+    border-bottom: none !important
+}
+
+.b-t-none {
+    border-top: none !important
+}
+
+.b-l-none {
+    border-left: none !important
+}
+
+.b-r-none {
+    border-right: none !important
+}
+
+.font_size_10 {
+    font-size: 10px !important
+}
+
+.font_size_11 {
+    font-size: 11px !important
+}
+
+.font_size_12 {
+    font-size: 12px
+}
+
+.font_size_13 {
+    font-size: 13px
+}
+
+.font_size_14 {
+    font-size: 14px
+}
+
+.font_size_15 {
+    font-size: 15px
+}
+
+.text-md {
+    font-size: 16px
+}
+
+.font_size_17 {
+    font-size: 17px
+}
+
+.font_size_18 {
+    font-size: 18px
+}
+
+.font_size_20 {
+    font-size: 20px
+}
+
+.font_size_22 {
+    font-size: 22px
+}
+
+.font_size_30 {
+    font-size: 30px !important
+}
+
+label {
+    font-weight: 400
+}
+
+.btn-addon i, .btn-icon, .list-icon i, .navbar-brand {
+    text-align: center
+}
+
+.i-checks input:checked + i {
+    border-color: #23b7e5
+}
+
+.i-checks input, .i-checks > i, .i-checks > span {
+    margin-left: -20px
+}
+
+.i-switch-lg i:after {
+    width: 28px
+}
+
+.i-checks {
+    padding-left: 20px
+}
+
+.i-checks input {
+    position: absolute;
+    opacity: 0
+}
+
+.i-checks input:checked + i {
+    border-color: #23b7e5
+}
+
+.i-checks input:checked + i:before {
+    top: 4px;
+    left: 4px;
+    width: 10px;
+    height: 10px;
+    background-color: #23b7e5
+}
+
+.i-checks input:checked + span .active {
+    display: inherit
+}
+
+.i-checks input[disabled] + i, fieldset[disabled] .i-checks input + i {
+    border-color: #dee5e7
+}
+
+.i-checks input[disabled] + i:before, fieldset[disabled] .i-checks input + i:before {
+    background-color: #dee5e7
+}
+
+.i-checks > i {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+    margin-right: 4px;
+    line-height: 1;
+    background-color: #fff;
+    border: 1px solid #cfdadd
+}
+
+.i-checks > i:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    content: "";
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.i-checks > span .active {
+    display: none
+}
+
+.i-checks-sm input:checked + i:before {
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px
+}
+
+.i-checks-sm > i {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    margin-left: -18px
+}
+
+.i-checks-lg input:checked + i:before {
+    top: 8px;
+    left: 8px;
+    width: 12px;
+    height: 12px
+}
+
+.i-checks-lg > i {
+    width: 30px;
+    height: 30px
+}
+
+.i-checks > i, .list-icon i, .navbar-brand img {
+    vertical-align: middle
+}
+
+.text-black {
+    color: #000
+}
+
+.m-xxs {
+    margin: 2px 4px
+}
+
+.m-xs {
+    margin: 5px
+}
+
+.m-sm {
+    margin: 10px
+}
+
+.m {
+    margin: 15px
+}
+
+.m-md {
+    margin: 20px
+}
+
+.m-lg {
+    margin: 30px
+}
+
+.m-xl {
+    margin: 50px
+}
+
+.m-n {
+    margin: 0 !important
+}
+
+.m-l-none {
+    margin-left: 0 !important
+}
+
+.m-l-xs {
+    margin-left: 5px
+}
+
+.m-l-sm {
+    margin-left: 10px !important
+}
+
+.m-l {
+    margin-left: 15px
+}
+
+.m-l-md {
+    margin-left: 20px
+}
+
+.m-l-25px {
+    margin-left: 25px
+}
+
+.m-l-lg {
+    margin-left: 30px
+}
+
+.m-l-xl {
+    margin-left: 40px
+}
+
+.m-l-xxl {
+    margin-left: 50px
+}
+
+.m-l-n-xxs {
+    margin-left: -1px !important
+}
+
+.m-l-n-xs {
+    margin-left: -5px
+}
+
+.m-l-n-sm {
+    margin-left: -10px
+}
+
+.m-l-n {
+    margin-left: -15px
+}
+
+.m-l-n-md {
+    margin-left: -20px
+}
+
+.m-l-n-lg {
+    margin-left: -30px
+}
+
+.m-l-n-xl {
+    margin-left: -40px
+}
+
+.m-l-n-xxl {
+    margin-left: -50px
+}
+
+.m-t-none {
+    margin-top: 0 !important
+}
+
+.m-t-xxs {
+    margin-top: 1px
+}
+
+.m-t-xs {
+    margin-top: 5px
+}
+
+.m-t-7px {
+    margin-top: 7px
+}
+
+.m-t-sm {
+    margin-top: 10px
+}
+
+.m-t_12 {
+    margin-top: 12px
+}
+
+.m-t {
+    margin-top: 15px
+}
+
+.m-t-md {
+    margin-top: 20px
+}
+
+.m-t-25px {
+    margin-top: 25px
+}
+
+.m-t-lg {
+    margin-top: 30px
+}
+
+.m-t-xl {
+    margin-top: 40px
+}
+
+.m-t-xxl {
+    margin-top: 50px
+}
+
+.m-t-60px {
+    margin-top: 60px
+}
+
+.m-t-75px {
+    margin-top: 75px
+}
+
+.m-t-100 {
+    margin-top: 100px !important
+}
+
+.m-t-n-xxs {
+    margin-top: -1px
+}
+
+.m-t-n-xs {
+    margin-top: -5px
+}
+
+.m-t-n-sm {
+    margin-top: -10px
+}
+
+.m-t-n {
+    margin-top: -15px
+}
+
+.m-t-n-md {
+    margin-top: -20px
+}
+
+.m-t-n-lg {
+    margin-top: -30px
+}
+
+.m-t-n-xl {
+    margin-top: -40px
+}
+
+.m-t-n-xxl {
+    margin-top: -50px
+}
+
+.m-r-none {
+    margin-right: 0 !important
+}
+
+.m-r-xxs {
+    margin-right: 1px
+}
+
+.m-r-xs {
+    margin-right: 5px
+}
+
+.m-r-sm {
+    margin-right: 10px
+}
+
+.m-r {
+    margin-right: 15px
+}
+
+.m-r-md {
+    margin-right: 20px
+}
+
+.m-r-25px {
+    margin-right: 25px
+}
+
+.m-r-lg {
+    margin-right: 30px !important
+}
+
+.m-r-xl {
+    margin-right: 40px
+}
+
+.m-r-xxl {
+    margin-right: 50px
+}
+
+.m-r-n-xxs {
+    margin-right: -1px
+}
+
+.m-r-n-xs {
+    margin-right: -5px
+}
+
+.m-r-n-sm {
+    margin-right: -10px
+}
+
+.m-r-n {
+    margin-right: -15px
+}
+
+.m-r-n-md {
+    margin-right: -20px
+}
+
+.m-r-n-25px {
+    margin-right: -25px
+}
+
+.m-r-n-lg {
+    margin-right: -30px
+}
+
+.m-r-n-xl {
+    margin-right: -40px
+}
+
+.m-r-n-xxl {
+    margin-right: -50px
+}
+
+.m-b-none {
+    margin-bottom: 0 !important
+}
+
+.m-b-xxs {
+    margin-bottom: 1px
+}
+
+.m-b-xs {
+    margin-bottom: 5px
+}
+
+.m-b-sm {
+    margin-bottom: 10px
+}
+
+.m-b {
+    margin-bottom: 15px
+}
+
+.m-b-md {
+    margin-bottom: 20px
+}
+
+.m-b-lg {
+    margin-bottom: 30px !important
+}
+
+.m-b-xl {
+    margin-bottom: 40px
+}
+
+.m-b-xxl {
+    margin-bottom: 50px
+}
+
+.m-b-n-xxs {
+    margin-bottom: -1px
+}
+
+.m-b-n-xs {
+    margin-bottom: -5px
+}
+
+.m-b-n-sm {
+    margin-bottom: -10px
+}
+
+.m-b-n {
+    margin-bottom: -15px
+}
+
+.m-b-n-md {
+    margin-bottom: -20px
+}
+
+.m-b-n-lg {
+    margin-bottom: -30px
+}
+
+.m-b-n-xl {
+    margin-bottom: -40px
+}
+
+.m-b-n-xxl {
+    margin-bottom: -50px
+}
+
+.ticket_info_subline_text_color {
+    color: #929292 !important
+}
+
+.blue_color_text {
+    color: #5bc0de
+}
+
+.form-control, .list-group {
+    border-radius: 2px
+}
+
+.form-control, .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.form-control {
+    border-color: #cfdadd
+}
+
+.form-control, .list-group {
+    border-radius: 2px
+}
+
+.btn-default.active, .btn-default:active, .btn-default:focus, .btn-default:hover, .open .dropdown-toggle.btn-default {
+    color: #58666e !important;
+    background-color: #edf1f2;
+    border-color: #c7d3d6
+}
+
+.input-group-addon {
+    border-radius: 3px !important;
+    padding: 3px 12px !important
+}
+
+.input-group {
+    width: 100%
+}
+
+.bg-info {
+    color: #dcf2f8;
+    background-color: #23b7e5
+}
+
+.i-checks, .i-switch, a {
+    cursor: pointer
+}
+
+.i-switch, .sl-item, .tl-content, .tl-date, .tl-wrap::before {
+    position: relative
+}
+
+.i-switch {
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+    margin: 0;
+    border-radius: 30px
+}
+
+input[type="checkbox"] {
+    display: none
+}
+
+.i-switch input:checked + i::before {
+    top: 50%;
+    right: 5px;
+    bottom: 50%;
+    left: 50%;
+    border-width: 0;
+    border-radius: 5px
+}
+
+.i-switch i::after, .i-switch i::before {
+    background-color: #fff;
+    position: absolute;
+    content: ""
+}
+
+.i-switch i::before {
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    border: 1px solid #f0f0f0;
+    border-radius: 30px;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.i-checks > i::before {
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    background-color: #cfdadd
+}
+
+.i-switch input:checked + i::after {
+    margin-left: 16px
+}
+
+.i-switch i::after, .i-switch i::before {
+    background-color: #fff;
+    position: absolute;
+    content: ""
+}
+
+.i-checks input[type="radio"] + i, .i-checks input[type="radio"] + i::before, .i-switch i::after {
+    border-radius: 50%
+}
+
+.i-switch i::after {
+    top: 1px;
+    bottom: 1px;
+    width: 18px;
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    -webkit-transition: margin-left .3s;
+    transition: margin-left .3s
+}
+
+.btn-default {
+    color: #58666e !important;
+    background-color: #fff;
+    border-color: #dee5e7 #dee5e7 #d8e1e3;
+    -webkit-box-shadow: 0 1px 1px rgba(90, 90, 90, 0.1);
+    box-shadow: 0 1px 1px rgba(90, 90, 90, 0.1)
+}
+
+.btn {
+    font-weight: 500;
+    border-radius: 2px
+}
+
+.btn, :focus {
+    outline: 0 !important
+}
+
+.v-middle {
+    vertical-align: middle !important
+}
+
+.common_display_flex {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center
+}
+
+.common_select_box {
+    width: 100%
+}
+
+.common_select_box button {
+    border: thin #cfdadd solid;
+    border-radius: 0 !important;
+    width: 100%;
+    text-align: left;
+    padding: 6px 12px;
+    border-radius: 1.5px !important;
+    color: #929292 !important
+}
+
+.common_select_box button .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: 2px;
+    vertical-align: middle;
+    border-top: 6px dashed;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    position: absolute;
+    top: 14px;
+    right: 5px
+}
+
+.common_select_box ul.dropdown-menu {
+    border: 1px solid #cfdadd;
+    border-radius: 2px;
+    box-shadow: none !important;
+    width: 100%;
+    padding: 0px
+}
+
+.common_select_box ul.dropdown-menu li {
+    padding: 5px 15px;
+    font-size: 12px
+}
+
+.common_select_box ul.dropdown-menu li:hover {
+    background: #edf1f2 !important
+}
+
+.div_wrapper {
+    padding: 10px 15px 0px 10px
+}
+
+.btn-dark {
+    color: #fff !important;
+    background-color: #3a3f51;
+    border-color: #3a3f51
+}
+
+.btn-dark.active, .btn-dark:active, .btn-dark:focus, .btn-dark:hover, .open .dropdown-toggle.btn-dark {
+    color: #fff !important;
+    background-color: #2f3342;
+    border-color: #292d39
+}
+
+.custom_button_width {
+    width: 128px;
+    height: 30px;
+    line-height: 18px
+}
+
+.cancel_btn {
+    width: 128px;
+    height: 30px;
+    color: #58666e;
+    outline: none;
+    background: #edf1f2
+}
+
+.cancel_btn:hover, .cancel_btn:active, .cancel_btn:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    background: #edf1f2 !important;
+    color: #58666e !important
+}
+
+.wrapper-xs {
+    padding: 5px
+}
+
+.wrapper-sm {
+    padding: 10px
+}
+
+.wrapper {
+    padding: 15px
+}
+
+.wrapper-md {
+    padding: 20px
+}
+
+.wrapper-25px {
+    padding: 25px
+}
+
+.wrapper-lg {
+    padding: 30px
+}
+
+.wrapper-xl {
+    padding: 50px
+}
+
+.choose_file_div {
+    background: #f6f8f8;
+    width: 104px;
+    height: 24px;
+    line-height: 2.15;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    color: #929292
+}
+
+.add_option_btn_div .btn-addon.btn-sm {
+    height: 30px;
+    border-radius: 0;
+    background: white;
+    border: thin #dee5e7 solid
+}
+
+.add_option_btn_div .btn-addon.btn-sm i {
+    background: #fff;
+    height: 28px !important;
+    width: 28px !important;
+    margin-top: -5px;
+    margin-left: -10px;
+    border-radius: 0px;
+    font-weight: 600
+}
+
+.add_option_btn_div .btn-addon.btn-sm i svg {
+    margin-top: 9px
+}
+
+.add_option_btn_div .btn-addon:hover {
+    border: thin #dee5e7 solid;
+    color: #58666e;
+    background: #edf1f2
+}
+
+.add_option_btn_div .btn-addon:hover i {
+    background: #edf1f2
+}
+
+.btn-addon.btn-sm i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px
+}
+
+.btn-addon i {
+    position: relative;
+    float: left;
+    width: 34px;
+    height: 34px;
+    margin: -7px 12px -7px -12px;
+    line-height: 34px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 2px 0 0 2px
+}
+
+.range_slider_div input[type=range] {
+    -webkit-appearance: none;
+    background-color: white;
+    height: 20px;
+    outline: none
+}
+
+.range_slider_div input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #fff;
+    opacity: 0.5;
+    width: 10px;
+    height: 30px;
+    outline: none
+}
+
+.range_slider_div input[type='range'], .range_slider_div input[type='range']:focus, .range_slider_div input[type='range']:active, .range_slider_div input[type='range']::-moz-focus-inner, .range_slider_div input[type='range']:-moz-focusring {
+    border: 0;
+    outline: none
+}
+
+
+
+
+
+
+/*-------------- Layout Modal ---------------------*/
+.modal_header_bg {
+    background: #edf1f2;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom: none;
+    color: #7c7c7c !important;
+}
+.modal_header_bg .sub_text_color {
+    color: #999999;
+}
+.modal_header_bg .close_icon_div {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #dee5e7;
+    position: relative;
+    text-align: center;
+    top: 3px;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+}
+.modal_header_bg .close_icon_div span {
+    position: relative;
+    color: #3a3f51;
+    font-size: 17px;
+    left: 0px;
+    top:2px;
+}
+
+
+
+.event_logo_selection_menu {
+    border-bottom: thin #edf1f2 solid;
+}
+.event_logo_selection_menu .menu_div {
+    display: inline-block;
+    margin-left: -3px;
+    margin-bottom: -5px;
+}
+.event_logo_selection_menu .menu_div .menu_text_div {
+    display: table-cell;
+    vertical-align: bottom;
+    height: 46px;
+    border-bottom: 3px transparent solid;
+}
+.event_logo_selection_menu .menu_div .menu_text_div span {
+    position: relative;
+    color: #616161;
+    bottom: 8px;
+}
+.event_logo_selection_menu .menu_div .menu_text_div_border_bottom {
+    border-bottom: 3px #3a3f51 solid;
+}
+.event_logo_selection_menu .menu_div:nth-child(2) {
+    margin-left: 40px;
+}
+.event_logo_selection_menu .menu_div:nth-child(3) {
+    margin-left: 40px;
+}
+.event_logo_selection_menu .menu_div:nth-child(4) {
+    margin-left: 40px;
+}
+
+
+
+.selection_of_img_div {
+    margin-top: 35px;
+    height: 275px;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+}
+.selection_of_img_div .default_img_dragging_div {
+    width: 248px;
+    height: 248px;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+}
+.selection_of_img_div .default_img_dragging_div .drag_image_div {
+    color: #cdcdcd;
+    display: table-cell;
+    vertical-align: middle;
+}
+.selection_of_img_div .default_img_dragging_div .drag_image_div .select_image_btn {
+    background: #edf1f2;
+    color: #58666e;
+    width: auto;
+    padding: 5px 8px;
+    border-radius: 2px;
+    outline: none;
+    border: thin #dee5e7 solid;
+}
+.selection_of_img_div .default_img_dragging_div .image_div {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.selection_of_img_div .default_img_dragging_div .image_div img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.selection_of_img_div .default_img_dragging_div .image_div .img_overlay {
+    width: 228px;
+    height: 228px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: none;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.selection_of_img_div .default_img_dragging_div .image_div .img_overlay .change_img_div {
+    width: 92px;
+    height: 28px;
+    background: white;
+    border-radius: 1px;
+    line-height: 2.5;
+    text-align: center;
+    border-radius: 2px;
+}
+.selection_of_img_div .default_img_dragging_div .image_div:hover .img_overlay {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+.selection_of_img_div .default_img_dragging_div .image_div_banner {
+    height: 228px;
+    width: 427.5px;
+    position: relative;
+    display: table;
+}
+
+.selection_of_img_div .default_img_dragging_div .image_div_banner img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.popup_banner_url_div .image_url_div_banner img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.selection_of_img_div .default_img_dragging_div .image_div_banner .img_overlay {
+    width: 228px;
+    height: 228px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: none;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_banner_url_div .image_url_div_banner .img_overlay{
+    width: 320px;
+    height: 180px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: none;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.selection_of_img_div .default_img_dragging_div .image_div_banner .img_overlay .change_img_div {
+    width: 92px;
+    height: 28px;
+    background: white;
+    border-radius: 1px;
+    line-height: 2.5;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.popup_banner_url_div .image_url_div_banner .img_overlay .change_img_div{
+    width: 92px;
+    height: 28px;
+    background: white;
+    border-radius: 1px;
+    line-height: 2.5;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.selection_of_img_div .default_img_dragging_div .image_div_banner:hover .img_overlay {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+.selection_of_img_div .by_url_div {
+    width: 100%;
+}
+.selection_of_img_div .by_url_div .row_width {
+    width: 86%;
+    margin: 5px auto 0 auto;
+}
+.selection_of_img_div .by_url_div .row_width .event_logo_div .event_logo_default_image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.selection_of_img_div .your_gallery_div {
+    width: 100%;
+}
+.selection_of_img_div .your_gallery_div .gallery_image_div {
+    width: 100px;
+    height: 100px;
+    border: thin #edf1f2 solid;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+.selection_of_img_div .your_gallery_div .gallery_image_div img {
+    margin: auto;
+    width: 100%;
+}
+.selection_of_img_div .your_gallery_div .img_overlay {
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.35);
+    width: 100px;
+    height: 100px;
+}
+.selection_of_img_div .your_gallery_div .img_overlay .banner_selected_div {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #27c24c;
+    border-radius: 50%;
+    right: 5px;
+    top: 5px;
+    padding-left: 4px;
+    padding-top: 1px;
+}
+.selection_of_img_div .your_gallery_div .banner_gallery_div {
+    height: 260px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.selection_of_img_div .your_gallery_div .banner_gallery_div .banner_gallery_image_div {
+    height: 248px;
+    width: 451px;
+    position: relative;
+    margin: 15px auto;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    align-items: center;
+}
+.selection_of_img_div .your_gallery_div .banner_gallery_div .banner_gallery_image_div img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.selection_of_img_div .your_gallery_div .banner_gallery_div .banner_gallery_image_div .banner_selected_div {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #27c24c;
+    border: 2px white solid;
+    border-radius: 50%;
+    right: -15px;
+    top: -15px;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.selection_of_img_div .default_img_dragging_div {
+
+    width: 248px;
+
+    height: 248px;
+
+    display: flex;
+
+    display: -ms-flexbox;
+
+    display: -webkit-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 10px;
+
+    position: relative;
+
+    margin: 0 auto;
+
+}
+
+.img-div-width-451 {
+
+    width: 448.36px !important;
+
+}
+
+.dashed_border {
+
+    border: 2.5px dashed #dee5e7;
+
+}
+
+.selection_of_img_div .default_img_dragging_div .image_div_banner {
+
+    height: 228px;
+
+    width: 427.5px;
+
+    position: relative;
+
+    display: table;
+
+}
+
+.popup_banner_url_div .image_url_div_banner{
+    height: 180px;
+
+    width: 320px;
+
+    position: relative;
+
+}
+
+.selection_of_img_div .default_img_dragging_div .drag_image_div {
+
+    color: #cdcdcd;
+
+    display: table-cell;
+
+    vertical-align: middle;
+
+}
+
+.by_url_div {
+    width: 100%;
+}
+.by_url_div .row_width {
+    width: 86%;
+    margin: 5px auto 0 auto;
+}
+.by_url_div .row_width .event_logo_div .event_logo_default_image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.align_items_flex_start{
+    align-items: flex-start !important;
+    margin-top:5px !important;
+}
+
+
+.banner-gallery-default-div {
+    height: 269px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.banner-gallery-default-div .banner-image-div {
+    width: 140px;
+    height: 86px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner-gallery-default-div .banner-image-div img {
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.popup_banner_url_div {
+
+    height: 180px;
+
+    width: 100%;
+    position:relative;
+
+}
+
+.popup_banner_url_div img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-height: 100%;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+}
+
+.img-div-width-326 {
+
+    width: 326px;
+
+}
+
+.margin_20px_auto {
+
+    margin: 10px auto 0 auto;
+
+}
+
+.padding_left_right_28 {
+
+    padding-left: 28px;
+
+    padding-right: 28px;
+
+}
+
+.file_display_none{
+    display:none !important;
+}
+
+.img_overlay{
+    width: 228px;
+    height: 228px;
+    background: rgba(0,0,0,0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index:1;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-overlay-crop{
+    width: 427.5px !important;
+}
+
+.crop-button{
+    width: 64px;
+    height: 24px;
+    color: #58666e;
+    font-size: 12px;
+    background-color: #fff;
+    line-height: 10px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 21px;
+}
+
+.image_div_banner{
+    height:180px !important;
+}
+
+/*------------------------------------------------*/

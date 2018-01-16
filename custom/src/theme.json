@@ -1,0 +1,490 @@
+{
+  "data" : {
+    "banner_section": [
+      {
+        "data" :{
+          "showEventDetail":true,
+          "showRegistration": true,
+          "opacity": 0.4,
+          "tagline": "Hamara Apna Event Chal Rya Hai - 2017",
+          "element": [{
+            "type":"text",
+            "title":"text",
+            "option":"text detail"
+          }]
+        },
+        "name" : "banner1"
+      },
+      {
+        "data" :{
+          "showEventDetail":true,
+          "showRegistration": false,
+          "opacity": 0.5,
+          "tagline": "Aaj Bhi hai",
+          "element": [{
+            "type":"text",
+            "title":"text",
+            "option":"text detail"
+          }]
+        },
+        "name" : "banner2"
+      },
+      {
+        "data" :{
+          "showEventDetail":false,
+          "showRegistration": true,
+          "opacity": 0.6,
+          "tagline": "Kal bhi Tha",
+          "element": [{
+            "type":"text",
+            "title":"text",
+            "option":"text detail"
+          }]
+        },
+        "name" : "banner3"
+      }
+    ],
+    "more_section" : [
+      {
+        "data" : {
+          "font" : {
+            "detail" : {
+              "font_color" : "#666",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            },
+            "font_family_list" : [ "AdventPro", "Lato-Bold", "Lato-Regular" ],
+            "title" : {
+              "font_color" : "#333",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            }
+          },
+          "header" : {
+            "navbar_name" : "contact",
+            "section_name" : "contact",
+            "tagline" : "About is all about"
+          },
+          "layout" : {
+            "bg_color" : "#fff",
+            "bg_image" : "",
+            "type" : 1
+          },
+          "load_more" : {
+            "btn_title" : "load more",
+            "limit" : 8
+          },
+          "element": [{
+            "type":"text",
+            "title":"text",
+            "option":"text detail"
+          }],
+          "isVisible" : true
+        },
+        "name" : "contact"
+      },
+      {
+        "data" : {
+          "font" : {
+            "detail" : {
+              "font_color" : "#666",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            },
+            "font_family_list" : [ "AdventPro", "Lato-Bold", "Lato-Regular" ],
+            "title" : {
+              "font_color" : "#333",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            }
+          },
+          "header" : {
+            "navbar_name" : "faq",
+            "section_name" : "faq",
+            "tagline" : "About is all about"
+          },
+          "layout" : {
+            "bg_color" : "#fff",
+            "bg_image" : "",
+            "type" : 1
+          },
+          "load_more" : {
+            "btn_title" : "load more",
+            "limit" : 8
+          },
+          "element": [{
+            "type":"text",
+            "title":"text",
+            "option":"text detail"
+          }],
+          "isVisible" : true
+        },
+        "name" : "faq"
+      },
+      {
+        "data" : {
+          "font" : {
+            "detail" : {
+              "font_color" : "#666",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            },
+            "font_family_list" : [ "AdventPro", "Lato-Bold", "Lato-Regular" ],
+            "title" : {
+              "font_color" : "#333",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            }
+          },
+          "header" : {
+            "navbar_name" : "gallery",
+            "section_name" : "gallery",
+            "tagline" : "About is all about"
+          },
+          "layout" : {
+            "bg_color" : "#fff",
+            "bg_image" : "",
+            "type" : 1
+          },
+          "load_more" : {
+            "btn_title" : "load more",
+            "limit" : 8
+          },
+          "element": [{
+            "type":"text",
+            "title":"text",
+            "option":"text detail"
+          }],
+          "isVisible" : true
+        },
+        "name" : "gallery"
+      },
+      {
+        "data" : {
+          "header" : {
+            "navbar_name" : "custom5",
+            "section_name" : "Section With Text & Image",
+            "tagline" : "About is all about"
+          },
+          "type" : "section-with-text-image",
+          "isVisible" : true
+        },
+        "name" : "custom"
+      },
+      {
+        "data" : {
+          "header" : {
+            "navbar_name" : "custom2",
+            "section_name" : "Section With Logo",
+            "tagline" : "About is all about"
+          },
+          "type" : "section-with-logo",
+          "isVisible" : true
+        },
+        "name" : "custom"
+      },
+      {
+        "data" : {
+          "header" : {
+            "navbar_name" : "custom3",
+            "section_name" : "Section With logo & Text",
+            "tagline" : "About is all about"
+          },
+          "type" : "section-with-logo-text",
+          "isVisible" : true
+        },
+        "name" : "custom"
+      },
+      {
+        "data" : {
+          "header" : {
+            "navbar_name" : "custom4",
+            "section_name" : "Section With Text",
+            "tagline" : "About is all about"
+          },
+          "type" : "section-with-text",
+          "isVisible" : true
+        },
+        "name" : "custom"
+      }
+    ],
+    "section_format" : [ {
+        "data" : {
+          "font" : {
+            "detail" : {
+              "font_color" : "#666",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            },
+            "font_family_list" : [ "AdventPro", "Lato-Bold", "Lato-Regular" ],
+            "title" : {
+              "font_color" : "#333",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            }
+          },
+          "header" : {
+            "navbar_name" : "about",
+            "section_name" : "about",
+            "tagline" : "About is all about"
+          },
+          "layout" : {
+            "bg_color" : "#fff",
+            "bg_image" : "",
+            "type" : 1
+          },
+          "load_more" : {
+            "btn_title" : "load more",
+            "limit" : 8
+          },
+          "element": [{
+            "type":"text",
+            "title":"text",
+            "option":"text detail"
+          }],
+          "isVisible" : true
+        },
+        "name" : "about"
+      }, {
+        "data":{
+          "font" : {
+            "font_family_list" : [ "AdventPro", "Lato-Bold", "Lato-Regular" ],
+            "detail" : {
+              "font_color" : "#666",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            },
+            "title" : {
+              "font_color" : "#333",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            }
+          },
+          "header" : {
+            "navbar_name" : "speaker",
+            "section_name" : "speaker",
+            "tagline" : "About is all about"
+          },
+          "layout" : {
+            "bg_color" : "#fff",
+            "bg_image" : "",
+            "type" : 1
+          },
+          "load_more" : {
+            "btn_title" : "load more",
+            "limit" : 8
+          },
+          "element": [{
+            "type":"text",
+            "title":"text",
+            "option":"text detail"
+          }],
+          "isVisible" : true
+        },
+        "name" : "speaker"
+      },{
+        "data" : {
+          "font" : {
+            "detail" : {
+              "font_color" : "#666",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            },
+            "font_family_list" : [ "AdventPro", "Lato-Bold", "Lato-Regular" ],
+            "title" : {
+              "font_color" : "#333",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            }
+          },
+          "header" : {
+            "navbar_name" : "networking",
+            "section_name" : "networking",
+            "tagline" : "About is all about"
+          },
+          "layout" : {
+            "bg_color" : "#fff",
+            "bg_image" : "",
+            "type" : 1
+          },
+          "load_more" : {
+            "btn_title" : "load more",
+            "limit" : 8
+          },
+          "element": [{
+            "type":"text",
+            "title":"text",
+            "option":"text detail"
+          }],
+          "isVisible" : true
+        },
+        "name" : "networking"
+      },{
+        "data" : {
+          "font" : {
+            "detail" : {
+              "font_color" : "#666",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            },
+            "font_family_list" : [ "AdventPro", "Lato-Bold", "Lato-Regular" ],
+            "title" : {
+              "font_color" : "#333",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            }
+          },
+          "header" : {
+            "navbar_name" : "schedule",
+            "section_name" : "schedule",
+            "tagline" : "About is all about"
+          },
+          "layout" : {
+            "bg_color" : "#fff",
+            "bg_image" : "",
+            "type" : 1
+          },
+          "load_more" : {
+            "btn_title" : "load more",
+            "limit" : 8
+          },
+          "element": [{
+            "type":"text",
+            "title":"text",
+            "option":"text detail"
+          }],
+          "isVisible" : true
+        },
+        "name" : "schedule"
+      },
+      {
+        "data" : {
+          "font" : {
+            "detail" : {
+              "font_color" : "#666",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            },
+            "font_family_list" : [ "AdventPro", "Lato-Bold", "Lato-Regular" ],
+            "title" : {
+              "font_color" : "#333",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            }
+          },
+          "header" : {
+            "navbar_name" : "sponsor",
+            "section_name" : "sponsor",
+            "tagline" : "About is all about"
+          },
+          "layout" : {
+            "bg_color" : "#fff",
+            "bg_image" : "",
+            "type" : 1
+          },
+          "load_more" : {
+            "btn_title" : "load more",
+            "limit" : 8
+          },
+          "element": [{
+            "type":"text",
+            "title":"text",
+            "option":"text detail"
+          }],
+          "isVisible" : true
+        },
+        "name" : "sponsor"
+      },
+      {
+        "data" : {
+          "font" : {
+            "detail" : {
+              "font_color" : "#666",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            },
+            "font_family_list" : [ "AdventPro", "Lato-Bold", "Lato-Regular" ],
+            "title" : {
+              "font_color" : "#333",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            }
+          },
+          "header" : {
+            "navbar_name" : "venue",
+            "section_name" : "venue",
+            "tagline" : "About is all about"
+          },
+          "layout" : {
+            "bg_color" : "#fff",
+            "bg_image" : "",
+            "type" : 1
+          },
+          "load_more" : {
+            "btn_title" : "load more",
+            "limit" : 8
+          },
+          "element": [{
+            "type":"text",
+            "title":"text",
+            "option":"text detail"
+          }],
+          "isVisible" : true
+        },
+        "name" : "venue"
+      },
+      {
+        "data" : {
+          "font" : {
+            "detail" : {
+              "font_color" : "#666",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            },
+            "font_family_list" : [ "AdventPro", "Lato-Bold", "Lato-Regular" ],
+            "title" : {
+              "font_color" : "#333",
+              "font_family" : "AdventPro",
+              "font_size" : 30
+            }
+          },
+          "header" : {
+            "navbar_name" : "exhibitor",
+            "section_name" : "exhibitor",
+            "tagline" : "About is all about"
+          },
+          "layout" : {
+            "bg_color" : "#fff",
+            "bg_image" : "",
+            "type" : 1
+          },
+          "load_more" : {
+            "btn_title" : "load more",
+            "limit" : 8
+          },
+          "element": [{
+            "type":"text",
+            "title":"text",
+            "option":"text detail"
+          }],
+          "isVisible" : true
+        },
+        "name" : "exhibitor"
+      },
+      {
+        "data" : {
+          "header" : {
+            "navbar_name" : "custom1",
+            "section_name" : "Section With People",
+            "tagline" : "About is all about"
+          },
+          "type" : "section-with-people",
+          "isVisible" : true
+        },
+        "name" : "custom"
+      }
+
+
+    ]
+  }
+}
