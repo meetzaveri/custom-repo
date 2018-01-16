@@ -1,0 +1,35 @@
+{
+  "show_widget_panel":"clear",
+  "isSlider":true,
+  "layout_grid":"1",
+  "font":{
+    "font_family_list":["AdventPro","Lato-Bold","Lato-Regular"],
+    "title":{
+      "font_size":50,
+      "font_color":"#333",
+      "font_family":"AdventPro"
+    },
+    "detail":{
+      "font_size":20,
+      "font_color":"#333",
+      "font_family":"Advanto"
+    }
+  },
+  "layout":{
+    "layout_type":1,
+    "background":{
+      "color":"",
+      "image":""
+    }
+  },
+  "header":{
+    "navber_name":"Speaker",
+    "section_name":"Speaker",
+    "tag_line":"This is Speaker Page!"
+  },
+  "load_more":{
+    "title":"Load More",
+    "limit":8
+  },
+  "add_element":[]
+}
